@@ -1,0 +1,59 @@
+.mapcolor{
+	width: 100%;
+	height: 600px;
+	background-color: #ffffff;
+	/*border-radius:20px;*/
+	border: 5px solid #bec676;
+	outline: 10px solid #ffffff;
+}
+
+.signUpStyle{
+	width: 123px;
+	height: 44px;
+	background-color: #272727;
+	border-radius: 5px;
+}
+
+.signInStyle{
+	width: 123px;
+	height: 44px;
+	border: 5px solid #ffffff;
+	border-radius: 5px;
+}
+
+.button {
+	background: url(rss-feed-img.png) repeat 0px 0px;
+	width: 123px;
+	height: 44px;
+	display: block;
+}
+.button span {
+	display: none;
+}
+.button:hover {
+	background: url(rss-feed-img.png) repeat 0px -44px;
+}
+.amcharts-map-image-london {
+    -webkit-animation: am-pulsating 1s ease-out infinite;
+    animation: am-pulsating 1s ease-out infinite;
+}
+@-webkit-keyframes am-pulsating {
+    0% {
+        transform: scale(0);
+        opacity:1;
+    }
+    100% {
+        transform: scale(4);
+        opacity:0;
+    }
+}
+@keyframes am-pulsating {
+    0% {
+        transform: scale(0);
+        opacity:1;
+    }
+    100% {
+        transform: scale(4);
+        opacity:0;
+    }
+}
